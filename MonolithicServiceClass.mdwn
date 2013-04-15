@@ -1,6 +1,6 @@
 [[!taglink  AntiPattern]]
 
-**Name**: Monolithic Service Class
+# Monolithic Service Class
 
 **Context**:
 
