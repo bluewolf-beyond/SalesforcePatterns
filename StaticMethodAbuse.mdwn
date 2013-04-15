@@ -3,11 +3,15 @@
 **Context**:
 
  * methods operate on groups of objects
+ * only one instance of an object would ever exist
 
 **Forces**:
 
  * functional code is frequently easier to write
+ * object-oriented code is more difficult to understand
  * operations on primitives are more efficient
+ * global methods are easy to invoke
+ * object instantiation is expensive for a single method call
 
 **Supposed Solution**:
 
@@ -21,7 +25,6 @@
 
 **Related AntiPatterns**:
 
- * [[InstanceAversion]]
  * [[MonolithicServiceClass]]
  * [[MonolithicFactoryClass]]
 
