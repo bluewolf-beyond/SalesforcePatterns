@@ -1,5 +1,7 @@
 [[!taglink  AntiPattern]]
 
+# Flat File Structure
+
 The [[Salesforce.com]] platform enforces a flat file structure when deploying [[Apex]] code.  The Force.com IDE assumes [[BidirectionalDeployment]], which encourages developers to follow this convention.  Thus, hierarchical packages structures are avoided.
 
 #### See Also:
