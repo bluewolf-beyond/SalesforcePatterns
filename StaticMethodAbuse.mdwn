@@ -2,12 +2,12 @@
 
 # Static Method Abuse
 
-**Context**:
+### Context
 
  * methods operate on groups of objects
  * only one instance of an object would ever exist
 
-**Forces**:
+### Forces
 
  * functional code is frequently easier to write
  * object-oriented code is more difficult to understand
@@ -15,11 +15,11 @@
  * global methods are easy to invoke
  * object instantiation is expensive for a single method call
 
-**Supposed Solution**:
+### Supposed Solution
 
  * make all methods static (i.e., global)
 
-**Resulting Context**:
+### Resulting Context
 
 When all methods are static, unit testing is difficult, since all classes are tightly coupled.  There is no seam for dependency injection, so all validations must test the system as a whole.
 
@@ -27,11 +27,11 @@ Polymorphism is impossible, since static methods cannot be overridden.  This mak
 
 Code reuse is more trouble than it's worth, because all code reuse is [[PasteDrivenDevelopment]].
 
-**Related AntiPatterns**:
+### Related AntiPatterns
 
  * [[MonolithicServiceClass]]
  * [[MonolithicFactoryClass]]
 
-**Applicable Positive Patterns**:
+### Applicable Positive Patterns
 
  * [[CommandPattern]]
