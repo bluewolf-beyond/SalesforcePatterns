@@ -1,3 +1,5 @@
+[[!taglink  AntiPattern]]
+
 **Name**: Monolithic Service Class
 
 **Context**:
@@ -29,6 +31,3 @@ Cohesive functionality related to a single project is spread over many files. It
 
  * [[AggregatePattern]]
  * [[ShearingLayers]]
-
-
-[[!taglink  AntiPattern]]
