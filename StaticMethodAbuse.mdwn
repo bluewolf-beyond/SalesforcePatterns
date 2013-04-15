@@ -19,9 +19,11 @@
 
 **Resulting Context**:
 
- * unit testing is difficult
- * polymorphism is impossible
- * code reuse is more trouble than it's worth
+When all methods are static, unit testing is difficult, since all classes are tightly coupled.  There is no seam for dependency injection, so all validations must test the system as a whole.
+
+Polymorphism is impossible, since static methods cannot be overridden.  This makes it difficult to handle duplication and special cases cleanly.
+
+Code reuse is more trouble than it's worth, because all code reuse is [[PasteDrivenDevelopment]].
 
 **Related AntiPatterns**:
 
