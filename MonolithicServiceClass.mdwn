@@ -15,7 +15,7 @@
 
 ### Supposed Solution
 
- * make one service class per sObject type.  make all operations on this type static methods on the service class.
+ * create a single service class per sObject type.  make all operations on this type static methods on the service class.
 
 ### Resulting Context
 
