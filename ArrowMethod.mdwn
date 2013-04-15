@@ -15,17 +15,18 @@
 
  * put all conditionals and loops in a single method
 
-    if (a) {
-      for (b) {
-        if (c) {
-          for (d) {
-            if (e) {
-              doSomething();
+
+        if (a) {
+          for (b) {
+            if (c) {
+              for (d) {
+                if (e) {
+                  doSomething();
+                }
+              }
             }
           }
         }
-      }
-    }
 
 ### Resulting Context
 
