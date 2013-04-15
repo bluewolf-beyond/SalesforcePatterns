@@ -1,0 +1,3 @@
+A software design pattern is a description of a common problem and a suggested solution.
+
+[[!tag  pattern]]
