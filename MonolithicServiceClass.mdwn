@@ -4,12 +4,12 @@
 
 ### Context
 
- * developing operations on groups of sObjects
+ * operations on groups of sObjects
 
 ### Forces
 
  * [[FlatFileStructure]] encourages minimizing file count
- * all team members need to understand system architecture
+ * all team members need to quickly understand system architecture
  * grouping functionality by sObject type simplifies architecture
  * global methods are easy to invoke
 
@@ -22,6 +22,8 @@
 Many disparate projects put methods into a single class.  It becomes difficult to tell which functionality is related to others in the [[BigBallOfMud]].
 
 Cohesive functionality related to a single project is spread over many files. It becomes difficult to follow the thread of execution through the [[SpaghettiCode]].
+
+Functional code becomes littered with special-case logic, increasing the complexity of the codebase.
 
 ### Related AntiPatterns
 
