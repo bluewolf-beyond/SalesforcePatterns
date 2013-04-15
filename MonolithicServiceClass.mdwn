@@ -34,3 +34,7 @@ Functional code becomes littered with special-case logic, increasing the complex
  * [[AggregatePattern]]
  * [[IteratorPattern]]
  * [[ShearingLayers]]
+
+### Special Case of
+
+ * [[Singleton]]
