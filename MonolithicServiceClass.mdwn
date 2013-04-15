@@ -31,9 +31,10 @@ Functional code becomes littered with special-case logic, increasing the complex
 
 ### Applicable Positive Patterns
 
- * [[AggregatePattern]]
- * [[IteratorPattern]]
- * [[ShearingLayers]]
+ * [[Aggregate]]
+ * [[Iterator]]
+ * [[ShearingLayer]]
+ * [[TemplateMethod]]
 
 ### Special Case of
 
