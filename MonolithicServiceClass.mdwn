@@ -29,3 +29,6 @@ Cohesive functionality related to a single project is spread over many files. It
 
  * [[AggregatePattern]]
  * [[ShearingLayers]]
+
+
+[[!taglink  AntiPattern]]
