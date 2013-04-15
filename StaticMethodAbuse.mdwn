@@ -7,6 +7,7 @@
 **Forces**:
 
  * functional code is frequently easier to write
+ * operations on primitives are more efficient
 
 **Supposed Solution**:
 
@@ -20,6 +21,7 @@
 
 **Related AntiPatterns**:
 
+ * [[InstanceAversion]]
  * [[MonolithicServiceClass]]
  * [[MonolithicFactoryClass]]
 
