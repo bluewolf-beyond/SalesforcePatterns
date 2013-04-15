@@ -1,21 +1,28 @@
 Name: Static Method Abuse
+
 Context:
+
  * methods operate on groups of objects
 
 Forces:
+
  * functional code is frequently easier to write
 
 Supposed Solution:
+
  * make all methods static
 
 Resulting Context:
+
  * unit testing is difficult
  * polymorphism is impossible
  * code reuse is more trouble than it's worth
 
 Related AntiPatterns:
+
  * [[MonolithicServiceClass]]
  * [[MonolithicFactoryClass]]
 
 Applicable Positive Patterns:
+
  * [[CommandPattern]]
