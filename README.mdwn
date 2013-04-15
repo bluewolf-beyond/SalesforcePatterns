@@ -1,0 +1,6 @@
+Salesforce Patterns
+===================
+
+A repository of Salesforce.com design patterns and anti-patterns.
+
+Built using ikiwiki <http://ikiwiki.info/>.
