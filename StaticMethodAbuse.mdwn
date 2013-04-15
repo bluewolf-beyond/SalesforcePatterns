@@ -33,3 +33,7 @@ Code reuse is more trouble than it's worth, because all code reuse is [[PasteDri
 **Applicable Positive Patterns**:
 
  * [[CommandPattern]]
+
+
+
+[[!taglink  AntiPattern]]
