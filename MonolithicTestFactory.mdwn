@@ -1,0 +1,45 @@
+[[!taglink  AntiPattern]]
+
+# Monolithic Test Factory
+
+### Context
+
+ * creation of sObject test data
+
+### Forces
+
+ * most tests across all projects require test data
+ * required fields and validation rules necessitate specific test data
+ * updates to configuration require updates to test data
+ * most details of test data are unrelated to the test
+ * [[FlatFileStructure]] encourages minimizing file count
+ * all team members need to quickly understand test data factory
+ * global methods are easy to invoke
+
+### Supposed Solution
+
+ * create a single test factory class for all projects.  make all test factory functions static methods on this class.
+
+### Resulting Context
+
+Many disparate projects put test data factory methods into a single class.  It becomes difficult to tell which functionality is related to others in the [[BigBallOfMud]].
+
+Integration problems are likely when multiple development teams modify a single [[MonolithicTestfactory]].
+
+Test code becomes littered with specific object creation logic, increasing the complexity of the codebase.
+
+### Related AntiPatterns
+
+ * [[StaticMethodAbuse]]
+
+### Applicable Positive Patterns
+
+ * [[AbstractFactory]]
+ * [[FactoryMethod]]
+ * [[ShearingLayer]]
+ * [[TemplateMethod]]
+
+### Special Case of
+
+ * [[Singleton]]
+ * [[Utility]]
