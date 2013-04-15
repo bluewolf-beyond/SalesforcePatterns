@@ -15,7 +15,7 @@
 
 **Supposed Solution**:
 
- * make all methods static
+ * make all methods static (i.e., global)
 
 **Resulting Context**:
 
