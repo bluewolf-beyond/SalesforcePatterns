@@ -39,3 +39,4 @@ Functional code becomes littered with special-case logic, increasing the complex
 ### Special Case of
 
  * [[Singleton]]
+ * [[Utility]]
