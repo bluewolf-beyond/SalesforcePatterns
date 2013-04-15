@@ -1,0 +1,7 @@
+A repository of [[Salesforce.com]] development [[pattern]]s and [[anti-pattern]]s.
+
+----
+
+All wikis are supposed to have a [[SandBox]], so this one does too.
+
+This wiki is powered by [[ikiwiki]].
