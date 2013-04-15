@@ -1,0 +1,36 @@
+[[!taglink  AntiPattern]]
+
+# Arrow Method
+
+### Context
+
+ * conditional checking and looping
+
+### Forces
+
+ * many conditionals need to be checked
+ * nested data structures must be traversed
+
+### Supposed Solution
+
+ * put all conditionals and loops in a single method
+
+    if (a) {
+      for (b) {
+        if (c) {
+          for (d) {
+            if (e) {
+              doSomething();
+            }
+          }
+        }
+      }
+    }
+
+### Resulting Context
+
+Rightward drift makes following code logic difficult.  Nested loops and conditionals make code more complex, increasing the necessary number of test cases.
+
+### Applicable Positive Patterns
+
+ * [[ComposeMethod]]
