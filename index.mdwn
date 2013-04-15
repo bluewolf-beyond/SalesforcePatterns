@@ -2,6 +2,12 @@ A repository of [[Salesforce.com]] development [[Pattern]]s and [[AntiPattern]]s
 
 ----
 
+Read the [[README]].
+
+This pattern repository is stored on GitHub at <https://github.com/couchand/SalesforcePatterns>.
+
+----
+
 All wikis are supposed to have a [[SandBox]], so this one does too.
 
 This wiki is powered by [[ikiwiki]].
