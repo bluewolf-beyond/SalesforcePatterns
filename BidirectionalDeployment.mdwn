@@ -1,0 +1,31 @@
+[[!taglink  AntiPattern]]
+
+# Bidirectional Deployment
+### Context
+
+ * developing on [[Salesforce.com]]
+
+### Forces
+
+ * Salesforce development is entirely in the cloud: developers have no local environment
+ * multiple developers often work in the same Salesforce org
+
+### Supposed Solution
+
+ * frequently pull the current code from Salesforce to synchronize
+
+### Resulting Context
+
+Developers never know where the true line of development lies: is it in [[VersionControl]] or [[Salesforce.com]]?  If the latter, which of the several possible sandboxes or developer environments is the mainline?
+
+Developers feel comfortable making changes within Salesforce without committing them to version control, leading to a mismatch between the various environments.
+
+Time is wasted manually integrating code.
+
+### Related Anti-Patterns
+
+ * [[FlatFileStructure]]
+
+### Applicable Positive Patterns
+
+ * [[SingleSourceOfTruth]]
