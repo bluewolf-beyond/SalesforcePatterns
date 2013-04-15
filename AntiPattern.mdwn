@@ -2,4 +2,4 @@ An anti-pattern is similar to a design pattern in that it is a description of a 
 
 Common [[Apex]] anti-patterns include [[StaticMethodAbuse]], [[MonolithicServiceClass]] and [[MonolithicFactoryClass]].
 
-[[!taglink AntiPattern]]
+[[!tag AntiPattern]]
