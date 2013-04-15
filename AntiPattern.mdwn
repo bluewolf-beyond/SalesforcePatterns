@@ -2,6 +2,6 @@
 
 An anti-pattern is similar to a design pattern in that it is a description of a solution to a common problem.  However, unlike a pattern, an anti-pattern describes a common but negative solution to the problem.
 
-Common [[Apex]] anti-patterns include [[ArrowMethod]], [[StaticMethodAbuse]], [[MonolithicServiceClass]] and [[MonolithicTestFactory]].
+Common [[Apex]] anti-patterns include [[StaticMethodAbuse]], [[MonolithicServiceClass]] and [[MonolithicTestFactory]].
 
 [[!tag AntiPattern]]
