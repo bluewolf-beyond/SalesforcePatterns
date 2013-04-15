@@ -1,6 +1,6 @@
 [[!taglink  AntiPattern]]
 
-**Name**: Static Method Abuse
+# Static Method Abuse
 
 **Context**:
 
