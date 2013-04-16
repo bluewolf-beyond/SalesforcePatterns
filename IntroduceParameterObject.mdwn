@@ -1,6 +1,6 @@
 [[!taglink Refactoring]]
 
-# Encapsulate Collection
+# Introduce Parameter Object
 
 ### More Information
 
