@@ -1,0 +1,7 @@
+[[!taglink Refactoring]]
+
+# Encapsulate Collection
+
+### More Information
+
+ * <http://sourcemaking.com/refactoring/introduce-parameter-object>
