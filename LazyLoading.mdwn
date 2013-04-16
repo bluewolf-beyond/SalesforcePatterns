@@ -1,0 +1,39 @@
+[[!taglink  Pattern]]
+
+# Lazy Loading
+
+### Context
+
+ * class and object properties
+
+### Forces
+
+ * objects have properties referenced in only some code paths
+ * loading or initialization of data is expensive
+
+### Solution
+
+ * defer a property's initialization until it is needed
+
+        public Account parentAccount
+        {
+            get
+            {
+                if ( null == parentAccount )
+                {
+                    parentAccount = expensiveOperation();
+                }
+                return parentAccount;
+            }
+            set;
+        }
+
+### Resulting Context
+
+Execution is minimized because properties are only loaded or initialized when they are actually used.
+
+There is no question about when a given property is initialized, reducing the chance of [[NullReferenceException]]s.
+
+### Special Case of
+
+ * [[YouArentGonnaNeedIt]]
