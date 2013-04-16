@@ -1,0 +1,7 @@
+[[!taglink Refactoring]]
+
+# Move Method
+
+### More Information
+
+ * <http://sourcemaking.com/refactoring/move-method>
