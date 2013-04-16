@@ -1,0 +1,7 @@
+[[!taglink Refactoring]]
+
+# Extract Class
+
+### More Information
+
+ * <http://sourcemaking.com/refactoring/extract-class>
