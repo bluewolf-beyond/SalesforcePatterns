@@ -1,0 +1,4 @@
+[[!meta title="pages tagged Refactoring"]]
+
+[[!inline pages="tagged(Refactoring)" actions="no" archive="yes"
+feedshow=10]]
