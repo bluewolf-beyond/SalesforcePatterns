@@ -1,0 +1,29 @@
+[[!taglink  Pattern]]
+
+# Factory Method
+
+### Context
+
+ * complex object initialization
+
+### Forces
+
+ * constructors cannot have names
+ * constructor parameters can be cryptic
+ * object construction can grow quite complex
+
+### Solution
+
+ * encapsulate the creation of an object in a class-level factory method
+
+### Resulting Context
+
+Creation of complex objects is well factored.
+
+### Releated Patterns
+
+ * [[AbstractFactory]]
+
+### [[AntiPattern]]s to Avoid
+
+ * [[MonolithicTestFactory]]
