@@ -35,6 +35,7 @@ Test code becomes littered with specific object creation logic, increasing the c
 ### Applicable Positive Patterns
 
  * [[AbstractFactory]]
+ * [[Builder]]
  * [[FactoryMethod]]
  * [[ShearingLayer]]
  * [[TemplateMethod]]
