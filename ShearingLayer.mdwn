@@ -23,3 +23,8 @@ When a change needs to be made to the codebase, there is a clear and concise pla
 ### [[AntiPattern]]s to Avoid
 
  * [[BigBallOfMud]]
+
+### Indicative [[CodeSmell]]s
+
+ * [[DivergentChange]]
+ * [[ShotgunSurgery]]
