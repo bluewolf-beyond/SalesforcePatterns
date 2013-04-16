@@ -1,0 +1,25 @@
+[[!taglink  Pattern]]
+
+# Shearing Layer
+
+### Context
+
+ * organizing code into logical units
+
+### Forces
+
+ * version control tracks changes to files and directories
+ * integrating branches is easiest if files are changed in only one branch
+ * different parts of a system change at different rates
+
+### Solution
+
+ * group together code that changes at the same rate
+
+### Resulting Context
+
+When a change needs to be made to the codebase, there is a clear and concise place to make it.  The chances of missing an important case are significantly reduced.
+
+### [[AntiPattern]]s to Avoid
+
+ * [[BigBallOfMud]]
