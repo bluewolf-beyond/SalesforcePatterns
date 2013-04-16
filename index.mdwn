@@ -4,7 +4,7 @@ A repository of [[Salesforce.com]] development [[Pattern]]s and [[AntiPattern]]s
 
 Read the [[README]].
 
-This pattern repository is stored on GitHub at <https://github.com/couchand/SalesforcePatterns>.
+This pattern repository is stored on GitHub at <https://github.com/bluewolf-beyond/SalesforcePatterns>.
 
 ----
 
