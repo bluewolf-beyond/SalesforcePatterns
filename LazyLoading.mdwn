@@ -34,6 +34,10 @@ Execution is minimized because properties are only loaded or initialized when th
 
 There is no question about when a given property is initialized, reducing the chance of [[NullReferenceException]]s.
 
+### Exceptions
+
+It's not usually worth lazy loading primitives.
+
 ### Special Case of
 
  * [[YouArentGonnaNeedIt]]
