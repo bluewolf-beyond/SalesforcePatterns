@@ -9,7 +9,7 @@
 
 ### Forces
 
- * functional code is frequently easier to write
+ * procedural code is frequently easier to write
  * object-oriented code is more difficult to understand
  * operations on primitives are more efficient
  * global methods are easy to invoke
