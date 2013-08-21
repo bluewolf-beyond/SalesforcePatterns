@@ -1,4 +1,4 @@
-A repository of [[Salesforce.com]] development [[Pattern]]s and [[AntiPattern]]s.
+A repository of [[SalesforceDotCom]] development [[Pattern]]s and [[AntiPattern]]s.
 
 ----
 

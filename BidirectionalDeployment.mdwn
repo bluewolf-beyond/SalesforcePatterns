@@ -3,7 +3,7 @@
 # Bidirectional Deployment
 ### Context
 
- * developing on [[Salesforce.com]]
+ * developing on [[SalesforceDotCom]]
 
 ### Forces
 
@@ -16,7 +16,7 @@
 
 ### Resulting Context
 
-Developers never know where the true line of development lies: is it in [[VersionControl]] or [[Salesforce.com]]?  If the latter, which of the several possible sandboxes or developer environments is the mainline?
+Developers never know where the true line of development lies: is it in [[VersionControl]] or [[SalesforceDotCom]]?  If the latter, which of the several possible sandboxes or developer environments is the mainline?
 
 Developers feel comfortable making changes within Salesforce without committing them to version control, leading to a mismatch between the various environments.
 
