@@ -4,3 +4,5 @@ Salesforce Patterns
 A repository of Salesforce.com design patterns and anti-patterns.
 
 Built using ikiwiki <http://ikiwiki.info/>.
+
+To contribute, push to the GitHub repository <http://github.com/bluewolf-beyond/SalesforcePatterns>.
