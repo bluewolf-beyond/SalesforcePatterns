@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LazyLoading</title>
+
+<link rel="stylesheet" href="../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../local.css" type="text/css" />
+
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../">wiki</a>/ 
+
+</span>
+<span class="title">
+LazyLoading
+
+</span>
+</span>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<p><a href="../Pattern/">Pattern</a></p>
+
+<h1>Lazy Loading</h1>
+
+<h3>Context</h3>
+
+<ul>
+<li>class and object properties</li>
+</ul>
+
+
+<h3>Forces</h3>
+
+<ul>
+<li>objects have properties referenced in only some code paths</li>
+<li>loading or initialization of data is expensive</li>
+</ul>
+
+
+<h3>Solution</h3>
+
+<ul>
+<li><p>defer a property's initialization until it is needed</p>
+
+<pre><code> public Account parentAccount
+ {
+     get
+     {
+         if ( null == parentAccount )
+         {
+             parentAccount = expensiveOperation();
+         }
+         return parentAccount;
+     }
+     set;
+ }
+</code></pre></li>
+</ul>
+
+
+<h3>Resulting Context</h3>
+
+<p>Execution is minimized because properties are only loaded or initialized when they are actually used.</p>
+
+<p>There is no question about when a given property is initialized, reducing the chance of <span class="createlink">NullReferenceException</span>s.</p>
+
+<h3>Exceptions</h3>
+
+<p>It's not usually worth lazy loading primitives.</p>
+
+<h3>Special Case of</h3>
+
+<ul>
+<li><span class="createlink">YouArentGonnaNeedIt</span></li>
+</ul>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+<div class="tags">
+Tags:
+
+<a href="../Pattern/" rel="tag">Pattern</a>
+
+</div>
+
+
+
+<div id="backlinks">
+Links:
+
+<a href="../Pattern/">Pattern</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Wed 21 Aug 2013 09:32:02 AM EDT</span>
+<!-- Created <span class="date">Wed 21 Aug 2013 09:32:02 AM EDT</span> -->
+</div>
+
+</div>
+
+
+<!-- from wiki -->
+</div>
+
+</div>
+
+</body>
+</html>

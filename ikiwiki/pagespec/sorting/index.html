@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>sorting</title>
+
+<link rel="stylesheet" href="../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../local.css" type="text/css" />
+
+
+
+
+<meta name="robots" content="noindex, follow" />
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../">wiki</a>/ 
+
+<a href="../../">ikiwiki</a>/ 
+
+<a href="../">pagespec</a>/ 
+
+</span>
+<span class="title">
+sorting
+
+</span>
+</span>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>Some <a href="../../directive/">directives</a> that use
+<a href="../">PageSpecs</a> allow
+specifying the order that matching pages are shown in. The following sort
+orders can be specified.</p>
+
+<ul>
+<li><p><code>age</code> - List pages from the most recently created to the oldest.</p></li>
+<li><p><code>mtime</code> - List pages with the most recently modified first.</p></li>
+<li><p><code>title</code> - Order by title (page name), e.g. "z/a a/b a/c"</p></li>
+<li><p><code>path</code> - Order by page name including parents, e.g. "a/b a/c z/a"</p></li>
+<li><p><code>meta(title)</code> - Order according to the <code>[[!meta  title="foo" sortas="bar"]]</code>
+or <code>[[!meta  title="foo"]]</code> <a href="../../directive/">directive</a>, or the page name if no
+full title was set. <code>meta(author)</code>, <code>meta(date)</code>, <code>meta(updated)</code>, etc.
+also work.</p></li>
+</ul>
+
+
+<p>In addition, you can combine several sort orders and/or reverse the order of
+sorting, with a string like <code>age -title</code> (which would sort by age, then by
+title in reverse order if two pages have the same age).</p>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Sat 25 Aug 2012 05:09:30 PM EDT</span>
+<!-- Created <span class="date">Sat 25 Aug 2012 05:09:30 PM EDT</span> -->
+</div>
+
+</div>
+
+
+<!-- from wiki -->
+</div>
+
+</div>
+
+</body>
+</html>
