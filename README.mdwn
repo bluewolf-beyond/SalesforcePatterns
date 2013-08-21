@@ -3,4 +3,8 @@ Salesforce Patterns
 
 A repository of Salesforce.com design patterns and anti-patterns.
 
+To build pages, run:
+
+    ikiwiki --rebuild ~/SalesforcePatterns ~/SalesforcePatterns_pages/ --plugin tag
+
 Built using ikiwiki <http://ikiwiki.info/>.
